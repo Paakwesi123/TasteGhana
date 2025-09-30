@@ -1,73 +1,104 @@
-# Welcome to your Lovable project
 
-## Project info
+# TasteGhana
 
-**URL**: https://lovable.dev/projects/2dede65b-077d-43ef-93de-a3fe273e77b5
+**TasteGhana** is a web platform that preserves and promotes Ghana’s culinary heritage. It allows users to explore authentic recipes from different regions of Ghana, complete with cultural background, ingredients, and preparation steps.  
 
-## How can I edit this code?
+The MVP focuses on **free accessibility**, **cultural identity**, and **easy recipe discovery**. Adinkra symbols are integrated throughout the site to highlight Ghanaian culture.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Features
+- Browse authentic Ghanaian recipes with images and step-by-step instructions.  
+- Search and filter recipes by:
+  - Region (Ashanti, Ga, Ewe, Northern, etc.)  
+  - Difficulty level (Easy, Medium, Hard)  
+  - Dietary needs (Vegetarian, Vegan, Gluten-free)  
+  - Ingredients  
+- View recipe details with cultural notes and Adinkra symbols.  
+- Mobile-friendly, clean, and modern UI.  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2dede65b-077d-43ef-93de-a3fe273e77b5) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📂 Project Structure
+```
 
-**Use your preferred IDE**
+/tasteghana
+├── public/          # Static assets (images, icons, etc.)
+├── src/             # Main source code
+│   ├── components/  # Reusable UI components
+│   ├── pages/       # App pages (Home, Recipes, About, Contact, etc.)
+│   ├── data/        # Preloaded recipes (JSON or database integration)
+│   └── styles/      # Global and component styles
+├── package.json     # Project metadata and dependencies
+└── README.md        # Project documentation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+````
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠️ Installation & Setup
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/tasteghana.git
+cd tasteghana
+````
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 2. Install Dependencies
 
-# Step 3: Install the necessary dependencies.
-npm i
+If you’re using **npm**:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
+```
+
+Or with **yarn**:
+
+```bash
+yarn install
+```
+
+### 3. Start Development Server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Now visit:
+👉 `http://localhost:3000` (or the port shown in your terminal)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 4. Build for Production
 
-**Use GitHub Codespaces**
+```bash
+npm run build
+npm start
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📦 Requirements
 
-This project is built with:
+* Node.js (>= 18.x recommended)
+* npm or yarn
+* Git
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## ✨ Contribution
 
-Simply open [Lovable](https://lovable.dev/projects/2dede65b-077d-43ef-93de-a3fe273e77b5) and click on Share -> Publish.
+1. Fork the repo
+2. Create a new branch (`git checkout -b feature/awesome-feature`)
+3. Commit changes (`git commit -m "Add awesome feature"`)
+4. Push branch (`git push origin feature/awesome-feature`)
+5. Open a Pull Request
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🖤 Acknowledgements
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+* Inspired by Ghana’s rich culinary traditions
+* Adinkra symbols as cultural markers
+* Open-source community support
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```
+
